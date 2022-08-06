@@ -4,4 +4,4 @@
 .tox
 .cache
 .DS_Store
-.molecule_tests.sh
+./molecule_tests.sh
