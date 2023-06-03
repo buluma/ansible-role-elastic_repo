@@ -4,12 +4,12 @@ argument_specs:
   main:
     short_description: "Install the Elastic repository on your system."
     description: Add the Elastic repository so software can be installed.
-    author: Michael Buluma
+    author: Shadow Walker
     options:
       elastic_repo_license:
         type: "str"
         default: oss
         description: "The license to use, `elastic` uses the \"Elastic\" license, `oss` uses the \"Apache 2.0\" license."
-        choises:
+        choices:
           - elastic
           - oss
