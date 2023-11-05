@@ -2,9 +2,9 @@
 
 Install the Elastic repository on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-elastic_repo/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-elastic_repo/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-elastic_repo/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-elastic_repo)|[![quality](https://img.shields.io/ansible/quality/58805)](https://galaxy.ansible.com/buluma/elastic_repo)|[![downloads](https://img.shields.io/ansible/role/d/58805)](https://galaxy.ansible.com/buluma/elastic_repo)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-elastic_repo/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-elastic_repo/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-elastic_repo/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-elastic_repo)|[![downloads](https://img.shields.io/ansible/role/d/4695)](https://galaxy.ansible.com/buluma/elastic_repo)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -25,7 +25,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 
 ```yaml
 ---
-- name: prepare
+- name: Prepare
   hosts: all
   become: yes
   gather_facts: no
