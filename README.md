@@ -1,10 +1,10 @@
-# [Ansible role elastic_repo](#elastic_repo)
+# Ansible role [elastic_repo](https://galaxy.ansible.com/ui/standalone/roles/buluma/elastic_repo/documentation)
 
 Install the Elastic repository on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-elastic_repo/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-elastic_repo/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-elastic_repo/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-elastic_repo/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-elastic_repo.svg)](https://github.com/buluma/ansible-role-elastic_repo/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/elastic_repo)](https://galaxy.ansible.com/ui/standalone/roles/buluma/elastic_repo/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -106,9 +106,7 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
