@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-elastic_repo/tree/HEAD)
+## [v0.1.4](https://github.com/buluma/ansible-role-elastic_repo/tree/v0.1.4) (2023-12-23)
 
-[Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.1.3...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.1.3...v0.1.4)
 
 **Closed issues:**
 
