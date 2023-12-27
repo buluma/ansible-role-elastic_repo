@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-elastic_repo/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.1.4...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#12](https://github.com/buluma/ansible-role-elastic_repo/issues/12)
+
 ## [v0.1.4](https://github.com/buluma/ansible-role-elastic_repo/tree/v0.1.4) (2023-12-23)
 
 [Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.1.3...v0.1.4)
