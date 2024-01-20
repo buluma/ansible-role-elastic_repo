@@ -1,5 +1,21 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-elastic_repo/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.3.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#17](https://github.com/buluma/ansible-role-elastic_repo/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v0.3.0](https://github.com/buluma/ansible-role-elastic_repo/tree/v0.3.0) (2024-01-10)
+
+[Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.2.0...v0.3.0)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 3 to 4 [\#13](https://github.com/buluma/ansible-role-elastic_repo/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v0.2.0](https://github.com/buluma/ansible-role-elastic_repo/tree/v0.2.0) (2024-01-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.1.5...v0.2.0)
