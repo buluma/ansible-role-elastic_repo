@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump release-drafter/release-drafter from 5 to 6 [\#21](https://github.com/buluma/ansible-role-elastic_repo/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#20](https://github.com/buluma/ansible-role-elastic_repo/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#19](https://github.com/buluma/ansible-role-elastic_repo/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#18](https://github.com/buluma/ansible-role-elastic_repo/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
