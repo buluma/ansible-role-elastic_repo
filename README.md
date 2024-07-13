@@ -84,9 +84,9 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |---------|----|
 |[Amazon](https://hub.docker.com/r/buluma/amazonlinux)|all|
 |[Debian](https://hub.docker.com/r/buluma/debian)|all|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|7, 8|
+|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|9, 8|
 |[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|focal, bionic|
+|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|focal, bionic, jammy, lunar, noble|
 
 The minimum version of Ansible required is 2.12, tests have been done to:
 

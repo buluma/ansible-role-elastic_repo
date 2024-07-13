@@ -17,7 +17,7 @@ galaxy_info:
         - all
     - name: EL
       versions:
-        - "7"
+        - "9"
         - "8"
     - name: Fedora
       versions:
@@ -26,6 +26,9 @@ galaxy_info:
       versions:
         - focal
         - bionic
+        - jammy
+        - lunar
+        - noble
 
   galaxy_tags:
     - elasticrepo
