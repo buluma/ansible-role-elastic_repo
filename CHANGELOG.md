@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.4.0...HEAD)
 
+**Closed issues:**
+
+- Update action [\#11](https://github.com/buluma/ansible-role-elastic_repo/issues/11)
+- rebuild action [\#10](https://github.com/buluma/ansible-role-elastic_repo/issues/10)
+
 **Merged pull requests:**
 
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#24](https://github.com/buluma/ansible-role-elastic_repo/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
