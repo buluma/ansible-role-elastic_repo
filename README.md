@@ -11,28 +11,24 @@ Install the Elastic repository on your system.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-elastic_repo/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
----
-- name: Converge
-  hosts: all
-  become: true
+- become: true
   gather_facts: true
-
+  hosts: all
+  name: Converge
   roles:
-    - role: buluma.elastic_repo
+  - role: buluma.elastic_repo
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-elastic_repo/blob/master/molecule/default/prepare.yml):
 
 ```yaml
----
-- name: Prepare
-  hosts: all
-  become: true
+- become: true
   gather_facts: false
-
+  hosts: all
+  name: Prepare
   roles:
-    - role: buluma.bootstrap
-    - role: buluma.core_dependencies
+  - role: buluma.bootstrap
+  - role: buluma.core_dependencies
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -42,16 +38,6 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-elastic_repo/blob/master/defaults/main.yml):
 
 ```yaml
----
-# defaults file for elastic_repo
-
-# The software is free to use under the Elastic license.
-# An alternative package which contains only features that are available
-# under the Apache 2.0 license is also available.
-
-# Elastic has two versions of the packages:
-# - "elastic" using the "Elastic" license.
-# - "oss" using the Apache 2.0 license.
 elastic_repo_license: oss
 ```
 

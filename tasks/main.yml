@@ -1,26 +1,21 @@
 ---
-# tasks file for elastic_repo
-
 - name: Include assert.yml
   ansible.builtin.import_tasks: assert.yml
-  run_once: true
   delegate_to: localhost
-
+  run_once: true
 - name: Run apt steps
   when:
     - ansible_pkg_mgr == "apt"
   block:
     - name: Add gpg key (apt)
       ansible.builtin.apt_key:
-        url: "{{ elastic_repo_gpg_url }}"
         state: present
-
+        url: "{{ elastic_repo_gpg_url }}"
     - name: Apt apt repository
       ansible.builtin.apt_repository:
-        repo: "{{ elastic_repo_apt_repo }}"
         filename: elasic-7.x
+        repo: "{{ elastic_repo_apt_repo }}"
         state: present
-
 - name: Run yum steps
   when:
     - ansible_pkg_mgr in [ "dnf", "rpm", "yum" ]
@@ -29,10 +24,9 @@
       ansible.builtin.rpm_key:
         key: "{{ elastic_repo_gpg_url }}"
         state: present
-
     - name: Add yum repository
       ansible.builtin.yum_repository:
-        name: elastic-7.x
-        description: Elastic repository for 7.x packages
         baseurl: "{{ elastic_repo_rpm_repo }}"
+        description: Elastic repository for 7.x packages
         gpgkey: "{{ elastic_repo_gpg_url }}"
+        name: elastic-7.x

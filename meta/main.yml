@@ -1,12 +1,14 @@
 ---
+dependencies: []
 galaxy_info:
   author: Michael Buluma
-  role_name: elastic_repo
-  namespace: buluma
-  description: Install the Elastic repository on your system.
-  license: Apache-2.0
   company: none
+  description: Install the Elastic repository on your system.
+  galaxy_tags:
+    - elasticrepo
+  license: Apache-2.0
   min_ansible_version: "2.12"
+  namespace: buluma
   platforms:
     - name: Amazon
       versions:
@@ -23,6 +25,4 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
-  galaxy_tags:
-    - elasticrepo
-dependencies: []
+  role_name: elastic_repo
