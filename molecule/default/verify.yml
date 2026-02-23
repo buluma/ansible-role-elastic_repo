@@ -1,13 +1,13 @@
 ---
-  - become: true
-    gather_facts: false
-    hosts: all
-    name: Verify
-    tasks:
-      - ansible.builtin.package:
-          name: '{{ item }}'
-          state: present
-        loop:
-          - metricbeat
-          - elasticsearch-oss
-        name: Install elastic product
+- become: true
+  gather_facts: false
+  hosts: all
+  name: Verify
+  tasks:
+  - ansible.builtin.package:
+      name: '{{ item }}'
+      state: present
+    loop:
+    - metricbeat
+    - elasticsearch-oss
+    name: Install elastic product
