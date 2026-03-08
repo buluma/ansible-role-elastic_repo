@@ -4,10 +4,10 @@
   hosts: all
   name: Verify
   tasks:
-  - ansible.builtin.package:
-      name: '{{ item }}'
-      state: present
-    loop:
-    - metricbeat
-    - elasticsearch-oss
-    name: Install elastic product
+    - ansible.builtin.package:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - metricbeat
+        - elasticsearch-oss
+      name: Install elastic product
