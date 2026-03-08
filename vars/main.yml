@@ -6,5 +6,5 @@ _elastic_repo_rpm_repo:
   elastic: https://artifacts.elastic.co/packages/7.x/yum
   oss: https://artifacts.elastic.co/packages/oss-7.x/yum
 elastic_repo_apt_repo: "{{ _elastic_repo_apt_repo[elastic_repo_license] }}"
-elastic_repo_gpg_url: https://artifacts.elastic.co/GPG-KEY-elasticsearch
+elastic_repo_gpg_url: "https://artifacts.elastic.co/GPG-KEY-elasticsearch"
 elastic_repo_rpm_repo: "{{ _elastic_repo_rpm_repo[elastic_repo_license] }}"
