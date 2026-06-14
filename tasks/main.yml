@@ -7,6 +7,12 @@
   when:
     - ansible_facts.pkg_mgr == "apt"
   block:
+    - name: Ensure gnupg is installed (required for apt-key on newer Debian/Ubuntu)
+      ansible.builtin.package:
+        name: gnupg
+        state: present
+      when: ansible_facts.os_family == "Debian"
+
     - name: Add gpg key (apt)
       ansible.builtin.get_url:
         url: "{{ elastic_repo_gpg_url }}"
@@ -20,6 +26,7 @@
 - name: Run yum steps
   when:
     - ansible_facts.pkg_mgr in [ "dnf", "dnf5", "rpm", "yum" ]
+    - ansible_facts.distribution != "Fedora"
   block:
     - name: Add gpg key (rpm)
       ansible.builtin.rpm_key:
