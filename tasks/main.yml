@@ -5,7 +5,7 @@
   run_once: true
 - name: Run apt steps
   when:
-    - ansible_pkg_mgr == "apt"
+    - ansible_facts.pkg_mgr == "apt"
   block:
     - name: Add gpg key (apt)
       ansible.builtin.get_url:
@@ -19,7 +19,7 @@
         state: present
 - name: Run yum steps
   when:
-    - ansible_pkg_mgr in [ "dnf", "rpm", "yum" ]
+    - ansible_facts.pkg_mgr in [ "dnf", "rpm", "yum" ]
   block:
     - name: Add gpg key (rpm)
       ansible.builtin.rpm_key:
