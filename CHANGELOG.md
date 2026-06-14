@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-elastic_repo/tree/HEAD)
+## [v26.6.0](https://github.com/buluma/ansible-role-elastic_repo/tree/v26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.4.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.4.0...v26.6.0)
 
 **Closed issues:**
 
@@ -11,6 +11,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/checkout from 4 to 6 [\#26](https://github.com/buluma/ansible-role-elastic_repo/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#24](https://github.com/buluma/ansible-role-elastic_repo/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump dependabot/fetch-metadata from 1 to 2 [\#23](https://github.com/buluma/ansible-role-elastic_repo/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#21](https://github.com/buluma/ansible-role-elastic_repo/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
