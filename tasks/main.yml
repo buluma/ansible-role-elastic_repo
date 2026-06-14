@@ -19,7 +19,7 @@
         state: present
 - name: Run yum steps
   when:
-    - ansible_facts.pkg_mgr in [ "dnf", "rpm", "yum" ]
+    - ansible_facts.pkg_mgr in [ "dnf", "dnf5", "rpm", "yum" ]
   block:
     - name: Add gpg key (rpm)
       ansible.builtin.rpm_key:
