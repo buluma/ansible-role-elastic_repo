@@ -8,9 +8,10 @@
     - ansible_pkg_mgr == "apt"
   block:
     - name: Add gpg key (apt)
-      ansible.builtin.apt_key:
-        state: present
+      ansible.builtin.get_url:
         url: "{{ elastic_repo_gpg_url }}"
+        dest: /etc/apt/trusted.gpg.d/elastic_repo.asc
+        mode: "0644"
     - name: Apt apt repository
       ansible.builtin.apt_repository:
         filename: elasic-7.x
