@@ -5,13 +5,13 @@
   run_once: true
 - name: Run apt steps
   when:
-    - ansible_facts.pkg_mgr == "apt"
+    - ansible_facts['pkg_mgr'] == "apt"
   block:
     - name: Ensure gnupg is installed (required for apt-key on newer Debian/Ubuntu)
       ansible.builtin.package:
         name: gnupg
         state: present
-      when: ansible_facts.os_family == "Debian"
+      when: ansible_facts['os_family'] == "Debian"
 
     - name: Add gpg key (apt)
       ansible.builtin.get_url:
@@ -25,8 +25,8 @@
         state: present
 - name: Run yum steps
   when:
-    - ansible_facts.pkg_mgr in [ "dnf", "dnf5", "rpm", "yum" ]
-    - ansible_facts.distribution != "Fedora"
+    - ansible_facts['pkg_mgr'] in [ "dnf", "dnf5", "rpm", "yum" ]
+    - ansible_facts['distribution'] != "Fedora"
   block:
     - name: Add gpg key (rpm)
       ansible.builtin.rpm_key:
