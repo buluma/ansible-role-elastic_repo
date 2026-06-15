@@ -2,12 +2,14 @@
 - name: Verify
   hosts: all
   become: true
-  gather_facts: false
+  gather_facts: true
   tasks:
-    - ansible.builtin.package:
+    - name: Install elastic product
+      ansible.builtin.package:
         name: "{{ item }}"
         state: present
       loop:
         - metricbeat
         - elasticsearch-oss
-      name: Install elastic product
+      when:
+        - ansible_facts['distribution'] != "Fedora"
