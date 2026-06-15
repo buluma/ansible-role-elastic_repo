@@ -1,5 +1,9 @@
 # Changelog
 
+## [v26.6.1](https://github.com/buluma/ansible-role-elastic_repo/tree/v26.6.1) (2026-06-15)
+
+[Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v26.6.0...v26.6.1)
+
 ## [v26.6.0](https://github.com/buluma/ansible-role-elastic_repo/tree/v26.6.0) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-elastic_repo/compare/v0.4.0...v26.6.0)
